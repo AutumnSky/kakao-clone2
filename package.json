@@ -1,0 +1,8 @@
+{
+  "name": "kakao-clone2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AutumnSky/kakao-clone2",
+  "author": "autumn",
+  "license": "MIT"
+}
