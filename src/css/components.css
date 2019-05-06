@@ -1,0 +1,54 @@
+/* thumbnail */
+.thumbnail {
+  width: 10px;
+  height: 10px;
+  background-color: lightgray;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.thumbnail--me {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/autumnportfolio/me/IMG_3752.png");
+  margin-right: 15px;
+}
+
+.thumbnail--user {
+  width: 40px;
+  height: 40px;
+  background-image: url("https://www.flaticon.com/premium-icon/icons/svg/1144/1144760.svg");
+  margin-right: 15px;
+}
+
+/* user-list, user-item */
+
+.user-item:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.user-item .user-item__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-item .user-item__name {
+  font-size: 1rem;
+  color: #2d3436;
+  margin-bottom: 5px;
+}
+
+.user-item .user-item__status-message {
+  font-size: 0.8rem;
+  color: #636e72;
+  font-weight: 300;
+}

@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300:400,600");
 @import "reset.css";
 @import "frame.css";
-@import "friend.css";
+@import "components.css";
+@import "friend-list.css";
 @import "find.css";
 @import "more.css";
 @import "setting.css";
@@ -10,10 +11,10 @@
 @import "mobile.css";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    color:inherit;
-    cursor: pointer;
+  color: inherit;
+  cursor: pointer;
 }
