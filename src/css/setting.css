@@ -1,0 +1,16 @@
+.page--setting .page__header {
+  border-bottom: 1px solid #efefef;
+}
+
+.setting-item {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.setting-item i {
+  margin-right: 20px;
+}
