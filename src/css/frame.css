@@ -120,6 +120,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  z-index: 2;
+  background-color: white;
 }
 
 .page__header .header__title {

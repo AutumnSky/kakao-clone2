@@ -1,0 +1,128 @@
+.page--chat-room {
+  background-image: url("../images/chatBg.png");
+}
+
+.chatroom-float-shadow {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-room {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.chat-room .chat-room__date {
+  align-self: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 5px 10px;
+}
+
+.chat-room__conversation-list {
+  margin-top: 20px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conversation {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.conversation--user {
+  align-self: flex-start;
+  margin-right: 50px;
+}
+
+.conversation--me {
+  align-self: flex-end;
+  margin-left: 50px;
+}
+
+.conversation__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-room__thumbnail {
+  width: 30px;
+  height: 30px;
+  background-color: #dfe6e9;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.conversation__bubble {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 1.1rem;
+}
+
+.conversation__bubble--user {
+  border-bottom-left-radius: 0;
+  background-color: white;
+}
+
+.conversation__bubble--me {
+  border-bottom-right-radius: 0;
+  background-color: #fae54e;
+}
+
+.conversation__nickname {
+  font-size: 0.8rem;
+}
+
+/* input */
+.chat-room__input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -218px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
+  transition: bottom 0.3s ease-in-out;
+}
+
+.chat-room__input:hover {
+  bottom: 0;
+}
+
+.chat-room__input .input__buttons {
+  height: 45px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-room__input img {
+  width: 100%;
+}
+
+.chat-room__input input {
+  flex-grow: 1;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: none;
+}
+
+.chat-room__input button {
+  font-size: 1rem;
+}
+
+.chat-room__input button:not(:last-child) {
+  margin-right: 10px;
+}
