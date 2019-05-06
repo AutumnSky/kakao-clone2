@@ -154,6 +154,7 @@ body {
 }
 
 .page .page__menu {
+  z-index: 2;
   min-height: 60px;
   display: flex;
   justify-content: center;
@@ -168,6 +169,7 @@ body {
   font-size: 18px;
   color: #403631;
   opacity: 0.5;
+  position: relative;
 }
 
 .page__menu .menu--selected {

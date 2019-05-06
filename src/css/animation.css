@@ -1,0 +1,78 @@
+@keyframes pageAnim {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.page__content {
+  animation: pageAnim 0.3s ease-out forwards;
+}
+
+@keyframes headerAnim {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.page__header {
+  animation: headerAnim 0.3s ease-out forwards;
+}
+
+.page--chat-room .page__header {
+  animation: none;
+}
+
+.page--chat-room .page__content {
+  animation: none;
+}
+
+@keyframes chatUserAnim {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.page--chat-room .conversation--user {
+  animation: chatUserAnim 0.3s ease-out forwards;
+}
+
+@keyframes chatMyAnim {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.page--chat-room .conversation--me {
+  animation: chatMyAnim 0.3s ease-out forwards;
+}
+
+@keyframes badgeAnim {
+  0% {
+    transform: translate(100%, -100%);
+  }
+  50% {
+    transform: translate(100%, -125%);
+  }
+  100% {
+    transform: translate(100%, -100%);
+  }
+}
+.badge {
+  animation: badgeAnim 1s ease-in-out 1s infinite forwards;
+}

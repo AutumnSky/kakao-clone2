@@ -9,6 +9,7 @@
 @import "setting.css";
 @import "chat-room.css";
 @import "mobile.css";
+@import "animation.css";
 
 * {
   box-sizing: border-box;
