@@ -33,12 +33,15 @@
   display: flex;
   align-items: center;
   padding: 5px 0;
+  width: 100%;
 }
 
 .user-item .user-item__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-grow: 1;
+  margin-right: 5px;
 }
 
 .user-item .user-item__name {
@@ -51,4 +54,25 @@
   font-size: 0.8rem;
   color: #636e72;
   font-weight: 300;
+}
+
+.user-item__message-time {
+  font-size: 0.8rem;
+  color: #636e72;
+  font-weight: 300;
+}
+
+.user-item .music-info {
+  flex-shrink: 0;
+  border: 2px solid #55efc4;
+  border-radius: 2rem;
+  padding: 3px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-info span {
+  font-size: 0.8rem;
+  margin-right: 3px;
 }

@@ -148,6 +148,7 @@ body {
   flex-grow: 1;
   max-height: 100%;
   overflow: auto;
+  padding: 10px 20px;
 }
 
 .page .page__menu {
