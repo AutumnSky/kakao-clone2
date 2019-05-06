@@ -3,14 +3,6 @@
   border-bottom: 1px solid #efefef;
 }
 
-.friend-list__title {
-  display: block;
-  color: #636e72;
-  font-weight: 300;
-  font-size: 0.9rem;
-  margin-bottom: 10px;
-}
-
 .friend-list__plus {
   margin-top: 20px;
   padding-bottom: 20px;

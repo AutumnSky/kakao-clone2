@@ -23,8 +23,16 @@
   margin-right: 15px;
 }
 
-/* user-list, user-item */
+/* subtitle */
+.title--sub {
+  display: block;
+  color: #636e72;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
 
+/* user-list, user-item */
 .user-item:not(:last-child) {
   border-bottom: 1px solid #efefef;
 }
