@@ -1,0 +1,35 @@
+@media screen and (min-width: 550px) {
+  .phone {
+    width: 800px;
+    height: 397px;
+    flex-direction: row;
+    padding: 40px;
+    padding-right: 20px;
+  }
+
+  .phone .phone__top {
+    height: 80px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .sound-pannel {
+    width: 5px;
+    height: 60px;
+  }
+
+  .phone .phone__bottom {
+    max-width: 80px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* input */
+  .chat-room__input {
+    bottom: -110px;
+    height: 150px;
+  }
+}
